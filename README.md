@@ -4,7 +4,9 @@ This is the official implementation of the paper **"[ConfounderDCI]()"**
 
 ## Overview
 
-In this paper, we propose ConfounderDCI, a novel constraint-based approach for discovering confounders from observed data. The figure below exhibits the overall framework of our ConfounderDCI.
+One key challenge in causal inference is addressing the confounding bias caused by confounders between the treatment and outcome variables. Most studies have only focused on treating all observed covariates as confounders to solve this problem. Adjusting for non-confounders will inevitably result in biased causal effect estimation. This study proposes a novel Confounder Discovery algorithm using Conditional Independence tests (ConfounderDCI), effectively filtering out non-confounders such as mediators, adjustment, and irrelevant variables. 
+
+The figure below exhibits the overall framework of our method.
 
 ![framework](framework.png)
 
