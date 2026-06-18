@@ -53,7 +53,7 @@ confounderDCI-codes
 
 ## How to Run
 
-- Experimental environment: Matlab 2022a
+- Experimental environment: Matlab 2022b
 - Evaluation: quick start
 
 ```sh
