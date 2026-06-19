@@ -57,7 +57,7 @@ confounderDCI-codes
 ## How to Run
 
 - Experimental environment: Matlab 2022b and Python 3.11.14.
-- Installation: environment and dependences.
+- Installation: conda environment and dependences.
 
 ```sh
 ## Set up a new conda environment with Python 3.11.14
