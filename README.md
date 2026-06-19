@@ -47,6 +47,7 @@ confounderDCI-codes
 │   └── confounderDCI
 │       └── nc3_nIter20
 ├── visualization
+├── causal-inference
 ├── main_data_generation.m   # generate data based on the structural causal model
 ├── main_confounderDCI.m     # discover confounders using ConfounderDCI
 ├── requirements.txt     # dependences
