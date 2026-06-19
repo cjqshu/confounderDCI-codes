@@ -50,14 +50,25 @@ confounderDCI-codes
 ├── causal-inference
 ├── main_data_generation.m   # generate data based on the structural causal model
 ├── main_confounderDCI.m     # discover confounders using ConfounderDCI
-├── requirements.txt     # dependences
+├── requirements.txt         # dependences
 └── README.md
 ```
 
 ## How to Run
 
-- Experimental environment: Matlab 2022b
-- Evaluation: quick start
+- Experimental environment: Matlab 2022b and Python 3.11.14.
+- Installation: environment and dependences.
+
+```sh
+## Set up a new conda environment with Python 3.11.14
+conda create -n confounderdci python=3.11.14
+conda activate confounderdci
+
+## Install python libraries or dependences.
+pip install -r requirements.txt
+```
+
+- Evaluation: quick start.
 
 ```sh
 main_data_generation.m       # generate data based on the structural causal model

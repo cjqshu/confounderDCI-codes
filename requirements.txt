@@ -1,6 +1,5 @@
 # conda create -n naturalExp python=3.11.14
 
-# 记录库和和对应的版本号
 jupyter==1.1.1
 numpy==2.3.0
 ISLP==0.4.1
