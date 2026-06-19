@@ -68,7 +68,6 @@ def propensity_matching_ite(
 
 if __name__ == "__main__":
 
-    # 参数设定
     EPS = 1e-1
     MATCH_K = 9
     OMEGA_CONF = 0.7 

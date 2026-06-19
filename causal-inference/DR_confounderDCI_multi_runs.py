@@ -26,12 +26,7 @@ def fuse_propensity_linear(e_conf: np.ndarray, e_non: np.ndarray, w_conf: float,
 def propensity_matching_ite(
     X_arr: np.ndarray, y_arr: np.ndarray, d: np.ndarray, e: np.ndarray, k: int = 3
 ) -> tuple:
-    """
-    在倾向得分距离上 k-NN 匹配，返回两个潜在结果的估计值 (y1_hat, y0_hat)，以及 ITE 估计。
-    y1_hat: 每个样本的处理潜在结果估计
-    y0_hat: 每个样本的对照潜在结果估计
-    ite_hat: ITE 估计 = y1_hat - y0_hat
-    """
+
     if k < 1:
         raise ValueError("k must be >= 1")
     e1 = e.reshape(-1, 1)
